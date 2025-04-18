@@ -1,5 +1,4 @@
 import React from "react";
-import heroImage from "../assets/hero-image.png"; // Ajusta o caminho se necessário
 import { FaWhatsapp, FaCheckCircle } from "react-icons/fa";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
@@ -51,7 +50,7 @@ const HeroSection: React.FC = () => {
         {/* Imagem responsiva e espaçada */}
         <div className="flex-1">
           <img
-            src={heroImage}
+            src="/hero-image.png" // Caminho relativo à pasta public/
             alt="Instalação profissional"
             className="w-full h-auto max-w-[700px] mx-auto md:mx-0 rounded-xl shadow-lg"
           />

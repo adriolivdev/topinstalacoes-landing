@@ -7,18 +7,21 @@ export default {
   theme: {
     extend: {
       animation: {
-        shake: 'shake 0.6s ease-in-out infinite',
+        'shake-pause': 'shake-pause 2s ease-in-out infinite',
       },
       keyframes: {
-        shake: {
-          '0%': { transform: 'translateX(0)' },
-          '25%': { transform: 'translateX(-4px)' },
-          '50%': { transform: 'translateX(4px)' },
-          '75%': { transform: 'translateX(-4px)' },
+        'shake-pause': {
+          '0%, 100%': { transform: 'translateX(0)' },
+          '10%': { transform: 'translateX(-4px)' },
+          '20%': { transform: 'translateX(4px)' },
+          '30%': { transform: 'translateX(-4px)' },
+          '40%': { transform: 'translateX(4px)' },
+          '50%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(0)' },
         },
       },
-    },
+    }
+    
     
     
   },
