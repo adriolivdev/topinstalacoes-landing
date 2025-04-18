@@ -47,7 +47,8 @@ Deploy contínuo feito com Vercel
 🔗 Acesse: https://topinstalacoes-landing.vercel.app/ (ajuste quando o domínio estiver ok)
 
 ## 📸 Preview
-Imagem ou GIF do site em funcionamento aqui (opcional)
+![image](https://github.com/user-attachments/assets/bc536a49-75ca-4153-b975-365c325cca51)
+
 
 ## 🧠 Aprendizados
 Este projeto foi criado como parte do portfólio pessoal com o objetivo de praticar:
