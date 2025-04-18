@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Adiciona scroll suave global */
+html {
+  scroll-behavior: smooth;
+}
