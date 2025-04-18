@@ -12,19 +12,19 @@ const testimonials: Testimonial[] = [
     name: "Carla Menezes",
     message:
       "Ótimo atendimento! A instalação do ar-condicionado foi rápida e muito bem feita. Recomendo com certeza!",
-    avatar: "/src/assets/avatar-carla.png",
+    avatar: "/avatar-carla.png",
   },
   {
     name: "João Ferreira",
     message:
       "Equipe super profissional. Instalaram o sistema de câmeras e agora me sinto muito mais seguro em casa.",
-    avatar: "/src/assets/avatar-joao.png",
+    avatar: "/avatar-joao.png",
   },
   {
     name: "Renata Lima",
     message:
       "Fiquei impressionada com a agilidade e qualidade da instalação dos painéis solares. Serviço nota 10!",
-    avatar: "/src/assets/avatar-renata.png",
+    avatar: "/avatar-renata.png",
   },
 ];
 

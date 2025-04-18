@@ -16,19 +16,19 @@ const services: Service[] = [
     title: "Instalação de Ar-condicionado",
     description: "Instalação rápida e segura de ar-condicionado split, com suporte técnico especializado.",
     icon: <FaSnowflake size={40} className="text-blue-500 mx-auto mb-4" />,
-    image: "/src/assets/avatar-ar-condicionado.png", // Coloque sua imagem aqui
+    image: "/avatar-ar-condicionado.png", // Coloque sua imagem aqui
   },
   {
     title: "Câmeras de Segurança",
     description: "Proteja sua casa ou empresa com sistemas modernos de videomonitoramento.",
     icon: <FaVideo size={40} className="text-gray-700 mx-auto mb-4" />,
-    image: "/src/assets/avatar-camera.png", // Coloque sua imagem aqui
+    image: "/avatar-camera.png", // Coloque sua imagem aqui
   },
   {
     title: "Energia Solar",
     description: "Reduza sua conta de luz com energia limpa. Projetos e instalação de painéis solares.",
     icon: <FaSolarPanel size={40} className="text-yellow-500 mx-auto mb-4" />,
-    image: "src/assets/avatar-solar.png",
+    image: "/avatar-solar.png",
   },
 ];
 
