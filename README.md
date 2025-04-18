@@ -4,7 +4,6 @@ Site institucional responsivo para a empresa fictícia **TopInstalações**, esp
 
 Desenvolvido com foco em performance, usabilidade e identidade visual moderna, o projeto simula uma landing page profissional voltada para pequenas empresas do setor de instalações técnicas.
 
----
 
 ## ✨ Tecnologias Utilizadas
 
@@ -28,11 +27,9 @@ Desenvolvido com foco em performance, usabilidade e identidade visual moderna, o
 - ✅ Botão flutuante do WhatsApp
 - ✅ Design 100% responsivo e adaptado para desktop e mobile
 
----
 
 ## 🚀 Como executar localmente
 
-```bash
 # Clone o repositório
 git clone https://github.com/seu-usuario/topinstalacoes-site.git
 
