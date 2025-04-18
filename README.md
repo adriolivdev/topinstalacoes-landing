@@ -44,7 +44,7 @@ npm run dev
 
 🌐 Deploy
 Deploy contínuo feito com Vercel
-🔗 Acesse: https://topinstalacoes-site.vercel.app (ajuste quando o domínio estiver no ar)
+🔗 Acesse: https://topinstalacoes-landing.vercel.app/ (ajuste quando o domínio estiver ok)
 
 ## 📸 Preview
 Imagem ou GIF do site em funcionamento aqui (opcional)
