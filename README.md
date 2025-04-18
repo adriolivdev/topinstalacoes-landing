@@ -31,7 +31,7 @@ Desenvolvido com foco em performance, usabilidade e identidade visual moderna, o
 ## 🚀 Como executar localmente
 
 # Clone o repositório
-git clone https://github.com/seu-usuario/topinstalacoes-site.git
+git clone https://github.com/adriolivdev/topinstalacoes-landing.git
 
 # Acesse a pasta
 cd topinstalacoes-site
