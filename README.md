@@ -1,54 +1,64 @@
-# React + TypeScript + Vite
+# ⚡ TopInstalações
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site institucional responsivo para a empresa fictícia **TopInstalações**, especializada em serviços de instalação residencial, como ar-condicionado, câmeras de segurança e energia solar.
 
-Currently, two official plugins are available:
+Desenvolvido com foco em performance, usabilidade e identidade visual moderna, o projeto simula uma landing page profissional voltada para pequenas empresas do setor de instalações técnicas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- ⚛️ [React](https://reactjs.org/)
+- 💅 [Tailwind CSS](https://tailwindcss.com/)
+- 🟨 [TypeScript](https://www.typescriptlang.org/)
+- ⚡ [Vite](https://vitejs.dev/)
+- 🎯 [React Icons](https://react-icons.github.io/react-icons/)
+- 🎥 [CountUp.js](https://www.npmjs.com/package/react-countup)
+- 🌀 [Framer Motion](https://www.framer.com/motion/) – animações suaves
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 💻 Funcionalidades
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- ✅ Hero section com contador animado e botão de WhatsApp
+- ✅ Seção de serviços com ícones e imagens reais
+- ✅ Etapas de atendimento com layout em cards conectados
+- ✅ Depoimentos de clientes com avatar
+- ✅ Menu responsivo com scroll suave entre seções
+- ✅ Botão flutuante do WhatsApp
+- ✅ Design 100% responsivo e adaptado para desktop e mobile
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+---
+
+## 🚀 Como executar localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/topinstalacoes-site.git
+
+# Acesse a pasta
+cd topinstalacoes-site
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
+
+🌐 Deploy
+Deploy contínuo feito com Vercel
+🔗 Acesse: https://topinstalacoes-site.vercel.app (ajuste quando o domínio estiver no ar)
+
+## 📸 Preview
+Imagem ou GIF do site em funcionamento aqui (opcional)
+
+## 🧠 Aprendizados
+Este projeto foi criado como parte do portfólio pessoal com o objetivo de praticar:
+
+Estruturação de landing pages com foco em performance
+
+Responsividade com Tailwind CSS
+
+Integração de animações com Framer Motion
+
+Organização de projetos front-end modernos
